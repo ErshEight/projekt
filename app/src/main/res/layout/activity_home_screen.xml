@@ -49,11 +49,14 @@
         app:layout_constraintVertical_bias="0.025"
         app:srcCompat="@mipmap/ic_main_foreground" />
 
-    <ImageButton
+    <Button
         android:id="@+id/settingsButton"
         android:layout_width="46dp"
         android:layout_height="46dp"
         android:background="@drawable/roundedbutton"
+        android:drawableStart="@drawable/ic_settings"
+        android:drawablePadding="10dp"
+        android:paddingLeft="11dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.926"
@@ -62,11 +65,14 @@
         app:layout_constraintVertical_bias="0.039"
         app:srcCompat="@drawable/ic_settings" />
 
-    <ImageButton
+    <Button
         android:id="@+id/searchButton"
         android:layout_width="46dp"
         android:layout_height="46dp"
         android:background="@drawable/roundedbutton"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="10dp"
+        android:paddingLeft="11dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.745"
