@@ -80,7 +80,7 @@
         app:layout_constraintVertical_bias="1.0">
 
         <Button
-            android:id="@+id/imageButton5"
+            android:id="@+id/homeButton"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -92,7 +92,7 @@
             android:textColor="@color/black" />
 
         <Button
-            android:id="@+id/imageButton6"
+            android:id="@+id/favouriteButton"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -105,16 +105,17 @@
             app:srcCompat="@drawable/ic_favorite" />
 
         <Button
-            android:id="@+id/imageButton7"
+            android:id="@+id/profileButton"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/roundedbutton"
             android:drawableTop="@drawable/ic_person"
+            android:drawableTint="@color/purpul"
             android:drawablePadding="-10sp"
             android:paddingTop="10sp"
             android:text="Profil"
-            android:textColor="@color/black"
+            android:textColor="@color/purpul"
             app:srcCompat="@drawable/ic_person" />
 
     </LinearLayout>

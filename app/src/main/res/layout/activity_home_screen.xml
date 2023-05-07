@@ -7,6 +7,36 @@
     android:background="@color/white"
     tools:context=".homeScreen">
 
+    <TextView
+        android:id="@+id/wiecej1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="Więcej"
+        android:textColor="#AA40FD"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.988"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547" />
+
+    <TextView
+        android:id="@+id/wiecej2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="Więcej"
+        android:textColor="#AA40FD"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="96dp"
@@ -20,7 +50,7 @@
         app:srcCompat="@mipmap/ic_main_foreground" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/settingsButton"
         android:layout_width="46dp"
         android:layout_height="46dp"
         android:background="@drawable/roundedbutton"
@@ -33,13 +63,13 @@
         app:srcCompat="@drawable/ic_settings" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/searchButton"
         android:layout_width="46dp"
         android:layout_height="46dp"
         android:background="@drawable/roundedbutton"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.039"
@@ -81,7 +111,7 @@
         android:layout_height="47dp"
         android:layout_marginStart="96dp"
         android:background="@drawable/roundedbutton"
-        android:text="Button"
+        android:text="Technika"
         android:textColor="#9E9E9E"
         android:textSize="10sp"
         android:textStyle="normal"
@@ -97,7 +127,7 @@
         android:layout_width="83dp"
         android:layout_height="47dp"
         android:background="@drawable/roundedbutton"
-        android:text="Button"
+        android:text="Thrillery"
         android:textColor="#9E9E9E"
         android:textSize="10sp"
         android:textStyle="normal"
@@ -114,7 +144,7 @@
         android:layout_height="47dp"
         android:background="@drawable/roundedbutton"
         android:backgroundTint="#AA40FD"
-        android:text="Button"
+        android:text="Nowele"
         android:textSize="10sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -175,19 +205,20 @@
         app:layout_constraintVertical_bias="1.0">
 
         <Button
-            android:id="@+id/imageButton5"
+            android:id="@+id/homeButton"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/roundedbutton"
             android:drawableTop="@drawable/ic_outline_home"
+            android:drawableTint="@color/purpul"
             android:drawablePadding="-10sp"
             android:paddingTop="10sp"
             android:text="Główna"
-            android:textColor="@color/black" />
+            android:textColor="@color/purpul" />
 
         <Button
-            android:id="@+id/imageButton6"
+            android:id="@+id/favouriteButton"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -200,7 +231,7 @@
             app:srcCompat="@drawable/ic_favorite" />
 
         <Button
-            android:id="@+id/imageButton7"
+            android:id="@+id/profileButton"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"

@@ -40,7 +40,7 @@
         android:layout_width="83dp"
         android:layout_height="47dp"
         android:background="@drawable/roundedbutton"
-        android:text="Button"
+        android:text="Thrillery"
         android:textColor="#9E9E9E"
         android:textSize="10sp"
         android:textStyle="normal"
@@ -57,7 +57,7 @@
         android:layout_height="47dp"
         android:background="@drawable/roundedbutton"
         android:backgroundTint="#AA40FD"
-        android:text="Button"
+        android:text="Nowele"
         android:textSize="10sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,7 +73,7 @@
         android:layout_height="47dp"
         android:layout_marginStart="96dp"
         android:background="@drawable/roundedbutton"
-        android:text="Button"
+        android:text="Technika"
         android:textColor="#9E9E9E"
         android:textSize="10sp"
         android:textStyle="normal"
@@ -177,7 +177,7 @@
         app:layout_constraintVertical_bias="0.594" />
 
     <ImageButton
-        android:id="@+id/backButton3"
+        android:id="@+id/returnButton"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginLeft="15dp"
@@ -205,7 +205,7 @@
         app:layout_constraintVertical_bias="1.0">
 
         <Button
-            android:id="@+id/imageButton5"
+            android:id="@+id/homeButton"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -217,7 +217,7 @@
             android:textColor="@color/black" />
 
         <Button
-            android:id="@+id/imageButton6"
+            android:id="@+id/favouriteButton"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -230,7 +230,7 @@
             app:srcCompat="@drawable/ic_favorite" />
 
         <Button
-            android:id="@+id/imageButton7"
+            android:id="@+id/profileButton"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
