@@ -4,6 +4,105 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".favouritesScreen">
+    tools:context=".favouritesScreen"
+    android:background="@color/white">
+
+    <ImageButton
+        android:id="@+id/backButton2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/roundedbutton"
+        android:contentDescription="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065"
+        app:srcCompat="@drawable/ic_arrow_back" />
+
+    <TextView
+        android:id="@+id/borrows2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ulubione"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.080" />
+
+    <View
+        android:id="@+id/background2"
+        android:layout_width="354dp"
+        android:layout_height="129dp"
+
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/roundedborrows"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:background="#F4F4F4"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:drawableTop="@drawable/ic_outline_home"
+            android:drawablePadding="-10sp"
+            android:paddingTop="10sp"
+            android:text="Główna"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/favouriteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:drawableTop="@drawable/ic_favorite"
+            android:drawablePadding="-10sp"
+            android:drawableTint="@color/purpul"
+            android:paddingTop="10sp"
+            android:text="Ulubione"
+            android:textColor="@color/purpul"
+            app:srcCompat="@drawable/ic_favorite" />
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:drawableTop="@drawable/ic_person"
+            android:drawablePadding="-10sp"
+            android:paddingTop="10sp"
+            android:text="Profil"
+            android:textColor="@color/black"
+            app:srcCompat="@drawable/ic_person" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

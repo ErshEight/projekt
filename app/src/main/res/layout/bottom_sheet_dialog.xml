@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialogbg">
+    
+    <TextView
+        android:id="@+id/choosetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wybierz:"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp" />
+    
+    <LinearLayout
+        android:id="@+id/layoutReturn"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="7dp">
+
+        <ImageView
+            android:id="@+id/returnbook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_bookmark_remove_24" />
+
+        <TextView
+            android:id="@+id/returntext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zgłoś zwrot"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginStart="18dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutFavourite"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="7dp">
+
+        <ImageView
+            android:id="@+id/favourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_favorite" />
+
+        <TextView
+            android:id="@+id/favouriteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dodaj do ulubionych"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginStart="18dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutExtend"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="7dp">
+
+        <ImageView
+            android:id="@+id/extend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_extend" />
+
+        <TextView
+            android:id="@+id/extendText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Przedłuż wypożyczenie"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginStart="18dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:divider="?android:dividerHorizontal"
+        android:showDividers="middle">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Anuluj"
+            android:textAlignment="center"
+            android:textColor="#979C9E"
+            style="?android:attr/borderlessButtonStyle"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
